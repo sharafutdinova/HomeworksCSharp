@@ -1,0 +1,9 @@
+c:\users\alsu\documents\visual studio 2012\Projects\DiffieHellman\DiffieHellman\bin\Debug\DiffieHellman.exe.config
+c:\users\alsu\documents\visual studio 2012\Projects\DiffieHellman\DiffieHellman\bin\Debug\DiffieHellman.exe
+c:\users\alsu\documents\visual studio 2012\Projects\DiffieHellman\DiffieHellman\bin\Debug\DiffieHellman.pdb
+c:\users\alsu\documents\visual studio 2012\Projects\DiffieHellman\DiffieHellman\obj\Debug\DiffieHellman.csprojResolveAssemblyReference.cache
+c:\users\alsu\documents\visual studio 2012\Projects\DiffieHellman\DiffieHellman\obj\Debug\DiffieHellman.exe
+c:\users\alsu\documents\visual studio 2012\Projects\DiffieHellman\DiffieHellman\obj\Debug\DiffieHellman.pdb
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\DiffieHellman\DiffieHellman\bin\Debug\DiffieHellman.exe.config
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\DiffieHellman\DiffieHellman\obj\Debug\DiffieHellman.exe
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\DiffieHellman\DiffieHellman\obj\Debug\DiffieHellman.pdb

@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<body>
+  <question number="2">
+    <text>Введите режим подключения готовых модулей </text>
+    <answers>
+      <answer nextquestion="3">Исходный код</answer>
+      <answer nextquestion="3">Загрузочный код</answer>
+      <answer nextquestion="3">Сочетание кодов</answer>
+    </answers>
+  </question>
+  <question number="3">
+    <text>Необходимо ли административное управление проектом?</text>
+    <answers>
+      <answer nextquestion="4">Да</answer>
+      <answer nextquestion="11">Нет</answer>
+    </answers>
+  </question>
+  <question number="4">
+    <text>Перейти к пунктам создания системы?</text>
+    <answers>
+      <answer nextquestion="5">Да</answer>
+      <answer nextquestion="10">Нет</answer>
+    </answers>
+  </question>
+  <question number="5">
+    <text>Введите руководство по управлению проектом</text>
+    <answers>
+      <answer nextquestion="6">ISO 16326:1999</answer>
+      <answer nextquestion="6">ГОСТ 12207-99</answer>
+    </answers>
+  </question>
+  <question number="6">
+    <text>Выберите сферу использования системы</text>
+    <answers>
+      <answer nextquestion="7">Личная</answer>
+      <answer nextquestion="7">Коммерческая</answer>
+      <answer nextquestion="7">Техническая</answer>
+      <answer nextquestion="7">Open Source</answer>
+    </answers>
+  </question>
+  <question number="7">
+    <text>Для каких целей будет использована система?</text>
+    <answers>
+      <answer nextquestion="8">Научно-исследовательских</answer>
+      <answer nextquestion="8">Учебно-образовательных</answer>
+      <answer nextquestion="8">Инновационных</answer>
+      <answer nextquestion="8">Инвестиционных</answer>
+    </answers>
+  </question>
+  <question number="8">
+    <text>Выберите степень сложности системы</text>
+    <answers>
+      <answer nextquestion="9">Стабильная</answer>
+      <answer nextquestion="9">Изменяющаяся</answer>
+      <answer nextquestion="9">Самогенерирующаяся</answer>
+    </answers>
+  </question>
+  <question number="9">
+    <text>Должна ли система обладать свойством внедрения в другие проекты?</text>
+    <answers>
+      <answer nextquestion="10">Да</answer>
+      <answer nextquestion="10">Нет</answer>
+    </answers>
+  </question>
+  <question number="10">
+    <text>Завершить создание, проверить?</text>
+    <answers>
+      <answer nextquestion="11">Да</answer>
+      <answer nextquestion="4">Нет</answer>
+    </answers>
+  </question>
+  <question number="11">
+    <text>Необходимо тестирование системы?</text>
+    <answers>
+      <answer nextquestion="12">Да</answer>
+      <answer nextquestion="19">Нет</answer>
+    </answers>
+  </question>
+  <question number="12">
+    <text>Перейти к пунктам тестирования системы?</text>
+    <answers>
+      <answer nextquestion="13">Да</answer>
+      <answer nextquestion="18">Нет</answer>
+    </answers>
+  </question>
+  <question number="13">
+    <text>Введите руководство по тестированию</text>
+    <answers>
+      <answer nextquestion="14">ANSI/IEEE 1008-1986</answer>
+      <answer nextquestion="14">ANSI/IEEE 1012-1986</answer>
+    </answers>
+  </question>
+  <question number="14">
+    <text>Какое тестирование выбрать?</text>
+    <answers>
+      <answer nextquestion="15">Блочное</answer>
+      <answer nextquestion="15">Интеграционное</answer>
+      <answer nextquestion="15">Системное</answer>
+    </answers>
+  </question>
+  <question number="15">
+    <text>Какие этапы должна пройти система?</text>
+    <answers>
+      <answer nextquestion="16">Этап стабильности</answer>
+      <answer nextquestion="16">Этап надежности</answer>
+      <answer nextquestion="16">Этап эргономики</answer>
+      <answer nextquestion="16">Совокупность вышеперечисленных этапов</answer>
+    </answers>
+  </question>
+  <question number="16">
+    <text>Испытания на этапах подготовки к эксплуатации</text>
+    <answers>
+      <answer nextquestion="17">Тестирование процесса установки</answer>
+      <answer nextquestion="17">Тестирование на различных конфигурациях</answer>
+      <answer nextquestion="17">Приемочное тестирование</answer>
+    </answers>
+  </question>
+  <question number="17">
+    <text>Какое испытание выбрать на этапе сопровождения?</text>
+    <answers>
+      <answer nextquestion="18">Регрессионное</answer>
+      <answer nextquestion="18">Предварительное</answer>
+    </answers>
+  </question>
+  <question number="18">
+    <text>Завершить тестирование, проверить?</text>
+    <answers>
+      <answer nextquestion="19">Да</answer>
+      <answer nextquestion="12">Нет</answer>
+    </answers>
+  </question>
+  <question number="19">
+    <text>Необходимо документирование системы?</text>
+    <answers>
+      <answer nextquestion="20">Да</answer>
+      <answer nextquestion="27">Нет</answer>
+    </answers>
+  </question>
+  <question number="20">
+    <text>Перейти к пунктам документирования системы?</text>
+    <answers>
+      <answer nextquestion="21">Да</answer>
+      <answer nextquestion="26">Нет</answer>
+    </answers>
+  </question>
+  <question number="21">
+    <text>Введите основные руководства по документированию</text>
+    <answers>
+      <answer nextquestion="22">ГОСТ 19.105-78</answer>
+      <answer nextquestion="22">ГОСТ 19.106-78</answer>
+      <answer nextquestion="22">ISO 9294:1990</answer>
+      <answer nextquestion="22">ISO 9127:1990</answer>
+    </answers>
+  </question>
+  <question number="22">
+    <text>Какое направление документации выбрать?</text>
+    <answers>
+      <answer nextquestion="23">Организационно-распорядительная документация</answer>
+      <answer nextquestion="23">Плановая документация</answer>
+      <answer nextquestion="23">Первичная учетная документация</answer>
+      <answer nextquestion="23">Отчетно-статистическая</answer>
+      <answer nextquestion="23">Документация по обслуживанию</answer>
+      <answer nextquestion="23">Финансовой и расчетно-денежная документация</answer>
+      <answer nextquestion="23">Статистическая и ведомственной отчетности</answer>
+    </answers>
+  </question>
+  <question number="23">
+    <text>Выберите формат группировки документации</text>
+    <answers>
+      <answer nextquestion="24">По стадии разработки</answer>
+      <answer nextquestion="24">По направлению работ</answer>
+      <answer nextquestion="24">По виду материалов</answer>
+      <answer nextquestion="24">По подсистемам</answer>
+    </answers>
+  </question>
+  <question number="24">
+    <text>Что должна включать документация?</text>
+    <answers>
+      <answer nextquestion="25">Описательную часть</answer>
+      <answer nextquestion="25">Предметную часть</answer>
+      <answer nextquestion="25">Совокупность вышеперечисленных частей</answer>
+    </answers>
+  </question>
+  <question number="25">
+    <text>Нужна ли подсветка синтаксиса программных частей?</text>
+    <answers>
+      <answer nextquestion="26">Да</answer>
+      <answer nextquestion="26">Нет</answer>
+    </answers>
+  </question>
+  <question number="26">
+    <text>Завершить документирование, проверить?</text>
+    <answers>
+      <answer nextquestion="27">Да</answer>
+      <answer nextquestion="20">Нет</answer>
+    </answers>
+  </question>
+  <question number="27">
+    <text>Вывести суммарную информацию о системе?</text>
+    <answers>
+      <answer nextquestion="105">Да</answer>
+      <answer nextquestion="28">Нет</answer>
+      <answer nextquestion="28">Далее</answer>
+    </answers>
+  </question>
+  <question number="28">
+    <text>Необходимо ли оценить стоимость и качество создаваемой программной системы?</text>
+    <answers>
+      <answer nextquestion="29">Да</answer>
+      <answer nextquestion="36">Нет</answer>
+    </answers>
+  </question>
+  <question number="29">
+    <text>Перейти к пунктам оценки системы?</text>
+    <answers>
+      <answer nextquestion="30">Да</answer>
+      <answer nextquestion="35">Нет</answer>
+    </answers>
+  </question>
+  <question number="30">
+    <text>Введите основное руководство оценки качества и стоимости</text>
+    <answers>
+      <answer nextquestion="31">ISO 9126:1991</answer>
+      <answer nextquestion="31">ISO 14598-1-6:1998-2000</answer>
+    </answers>
+  </question>
+  <question number="31">
+    <text>Выберите по каким критериям оценивать стоимость системы? </text>
+    <answers>
+      <answer nextquestion="32">Удовлетворение условиям ТЗ</answer>
+      <answer nextquestion="32">Качественная разработка в установленные сроки</answer>
+      <answer nextquestion="32">Доступ к исходному коду проекта</answer>
+      <answer nextquestion="32">Непрерывная поддержка в ходе разработки</answer>
+      <answer nextquestion="32">Непрерывная поддержка в ходе обслуживания</answer>
+      <answer nextquestion="32">Все вышеперечисленные критерии</answer>
+    </answers>
+  </question>
+  <question number="32">
+    <text>Выберите по каким критериям оценивать качество системы?</text>
+    <answers>
+      <answer nextquestion="33">Понятность</answer>
+      <answer nextquestion="33">Полнота</answer>
+      <answer nextquestion="33">Сопровождаемость</answer>
+      <answer nextquestion="33">Тестируемость</answer>
+      <answer nextquestion="33">Удобство использования</answer>
+      <answer nextquestion="33">Надёжность</answer>
+      <answer nextquestion="33">Безопасность</answer>
+      <answer nextquestion="33">Структурированность</answer>
+      <answer nextquestion="33">Эффективность</answer>
+      <answer nextquestion="33">Все вышеперечисленные критерии</answer>
+    </answers>
+  </question>
+  <question number="33">
+    <text>Проводилась ли экспертная оценка системы?</text>
+    <answers>
+      <answer nextquestion="34">Да</answer>
+      <answer nextquestion="34">Нет</answer>
+    </answers>
+  </question>
+  <question number="34">
+    <text>Является ли система уникальной?</text>
+    <answers>
+      <answer nextquestion="35">Да</answer>
+      <answer nextquestion="35">Нет</answer>
+    </answers>
+  </question>
+  <question number="35">
+    <text>Завершить тестирование, проверить?</text>
+    <answers>
+      <answer nextquestion="36">Да</answer>
+      <answer nextquestion="29">Нет</answer>
+    </answers>
+  </question>
+  <question number="36">
+    <text>Сформировать готовую систему в файл?</text>
+    <answers>
+      <answer nextquestion="37">Нет</answer>
+      <answer nextquestion="37">Далее</answer>
+    </answers>
+  </question>
+  <question number="37">
+    <text>Завершить работу?</text>
+    <answers>
+      <answer nextquestion="0">Да</answer>
+      <answer nextquestion="1">Нет</answer>
+    </answers>
+  </question>
+  <question number="1">
+    <text>Начать работу?</text>
+    <answers>
+      <answer nextquestion="2">Да</answer>
+      <answer nextquestion="37">Нет</answer>
+    </answers>
+  </question>
+</body>

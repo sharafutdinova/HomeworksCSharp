@@ -1,0 +1,3 @@
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\PollardsMethod\PollardsMethod\bin\Debug\PollardsMethod.exe.config
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\PollardsMethod\PollardsMethod\obj\Debug\PollardsMethod.exe
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\PollardsMethod\PollardsMethod\obj\Debug\PollardsMethod.pdb
