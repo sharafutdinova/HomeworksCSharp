@@ -1,0 +1,6 @@
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\FrequencyAnalysis\FrequencyAnalysis\bin\Debug\FrequencyAnalysis.exe.config
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\FrequencyAnalysis\FrequencyAnalysis\obj\Debug\FrequencyAnalysis.exe
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\FrequencyAnalysis\FrequencyAnalysis\obj\Debug\FrequencyAnalysis.pdb
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\FrequencyAnalysis\FrequencyAnalysis\bin\Debug\FrequencyAnalysis.exe
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\FrequencyAnalysis\FrequencyAnalysis\bin\Debug\FrequencyAnalysis.pdb
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\FrequencyAnalysis\FrequencyAnalysis\obj\Debug\FrequencyAnalysis.csprojResolveAssemblyReference.cache

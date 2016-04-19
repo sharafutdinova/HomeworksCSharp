@@ -1,0 +1,6 @@
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\CaesarCode\CaesarCode\bin\Debug\CaesarCode.exe.config
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\CaesarCode\CaesarCode\obj\Debug\CaesarCode.exe
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\CaesarCode\CaesarCode\obj\Debug\CaesarCode.pdb
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\CaesarCode\CaesarCode\bin\Debug\CaesarCode.exe
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\CaesarCode\CaesarCode\bin\Debug\CaesarCode.pdb
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\CaesarCode\CaesarCode\obj\Debug\CaesarCode.csprojResolveAssemblyReference.cache

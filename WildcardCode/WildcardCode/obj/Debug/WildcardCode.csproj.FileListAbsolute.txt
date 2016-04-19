@@ -1,0 +1,6 @@
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\WildcardCode\WildcardCode\bin\Debug\WildcardCode.exe.config
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\WildcardCode\WildcardCode\obj\Debug\WildcardCode.exe
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\WildcardCode\WildcardCode\obj\Debug\WildcardCode.pdb
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\WildcardCode\WildcardCode\bin\Debug\WildcardCode.exe
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\WildcardCode\WildcardCode\bin\Debug\WildcardCode.pdb
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\WildcardCode\WildcardCode\obj\Debug\WildcardCode.csprojResolveAssemblyReference.cache
