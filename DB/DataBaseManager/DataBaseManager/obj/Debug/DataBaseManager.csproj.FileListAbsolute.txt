@@ -1,0 +1,21 @@
+c:\users\temp.stud\documents\visual studio 2012\Projects\DataBaseManager\DataBaseManager\bin\Debug\DataBaseManager.exe.config
+c:\users\temp.stud\documents\visual studio 2012\Projects\DataBaseManager\DataBaseManager\bin\Debug\DataBaseManager.exe
+c:\users\temp.stud\documents\visual studio 2012\Projects\DataBaseManager\DataBaseManager\bin\Debug\DataBaseManager.pdb
+c:\users\temp.stud\documents\visual studio 2012\Projects\DataBaseManager\DataBaseManager\obj\Debug\DataBaseManager.csprojResolveAssemblyReference.cache
+c:\users\temp.stud\documents\visual studio 2012\Projects\DataBaseManager\DataBaseManager\obj\Debug\DataBaseManager.Form1.resources
+c:\users\temp.stud\documents\visual studio 2012\Projects\DataBaseManager\DataBaseManager\obj\Debug\DataBaseManager.Properties.Resources.resources
+c:\users\temp.stud\documents\visual studio 2012\Projects\DataBaseManager\DataBaseManager\obj\Debug\DataBaseManager.csproj.GenerateResource.Cache
+c:\users\temp.stud\documents\visual studio 2012\Projects\DataBaseManager\DataBaseManager\obj\Debug\DataBaseManager.exe
+c:\users\temp.stud\documents\visual studio 2012\Projects\DataBaseManager\DataBaseManager\obj\Debug\DataBaseManager.pdb
+C:\Users\Alsu\Desktop\DataBaseManager\DataBaseManager\bin\Debug\DataBaseManager.exe.config
+C:\Users\Alsu\Desktop\DataBaseManager\DataBaseManager\obj\Debug\DataBaseManager.exe
+C:\Users\Alsu\Desktop\DataBaseManager\DataBaseManager\obj\Debug\DataBaseManager.pdb
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\DB\DataBaseManager\DataBaseManager\bin\Debug\DataBaseManager.exe.config
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\DB\DataBaseManager\DataBaseManager\obj\Debug\DataBaseManager.exe
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\DB\DataBaseManager\DataBaseManager\obj\Debug\DataBaseManager.pdb
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\DB\DataBaseManager\DataBaseManager\bin\Debug\DataBaseManager.exe
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\DB\DataBaseManager\DataBaseManager\bin\Debug\DataBaseManager.pdb
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\DB\DataBaseManager\DataBaseManager\obj\Debug\DataBaseManager.csprojResolveAssemblyReference.cache
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\DB\DataBaseManager\DataBaseManager\obj\Debug\DataBaseManager.Form1.resources
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\DB\DataBaseManager\DataBaseManager\obj\Debug\DataBaseManager.Properties.Resources.resources
+C:\Users\Alsu\Documents\Visual Studio 2012\Projects\DB\DataBaseManager\DataBaseManager\obj\Debug\DataBaseManager.csproj.GenerateResource.Cache
