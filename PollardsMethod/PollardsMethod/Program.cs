@@ -3,23 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Numerics;
 
 namespace PollardsMethod
 {
     class Program
     {
-        public static bool Simple(decimal number)
+        public static bool IsSimple(int p)
         {
-            int k = 0;
-            for (int i = 1; i < number; i++)
+            bool b = true;
+            int i = 2;
+            while (i < p && b)
             {
-                if (number % i == 0)
-                    k++;
+                if (p % i == 0)
+                    b = false;
+                i++;
             }
-            if (k > 1)
-                return false;
-            else
-                return true;
+            return b;
         }
 
         public static int FindM(int b)
@@ -27,104 +27,94 @@ namespace PollardsMethod
             int m = 1;
             for (int i = 2; i < b; i++)
             {
-                if (Simple(i))
+                if (IsSimple(i))
                 {
-                    int k = i;
-                    while (k < b)
+                    int p = i;
+                    while (p * i < b)
                     {
-                        k = k * i;
+                        p = p * i;
                     }
-                    m = m * k / i;
+                    m = m * p;
                 }
             }
+
             return m;
         }
 
-        public static int FindMod(int m, int a, int x)
+        public static List<int> GetBinary(int m)
         {
-            decimal mod = 1;
-            while (m > 100)
+            List<int> binary = new List<int>();
+            while (m > 0)
             {
-                mod = mod * (int)Math.Pow(a, 500) % x;
-                m = m - 100;
+                binary.Add(m % 2);
+                m = m / 2;
             }
-            mod = mod * (int)Math.Pow(a, m) % x;
-            Console.WriteLine(Math.Pow(a, m));
-            return (int)mod;
+            return binary;
         }
 
-        public static int FindNOD(decimal x, int mod)
+        public static BigInteger FindMod(BigInteger x, int m, int a )
         {
-            bool find = false;
-            int result = mod;
-            while(result > 0 && !find)
+            BigInteger mod = new BigInteger();
+            List<int> binary = GetBinary(m);
+            mod = a % x;
+            for (int i = binary.Count - 2; i >= 0; i--)
             {
-                decimal a = x % result;
-                double b = mod % result;
-                if (a == 0 && b == 0)
+                if (binary[i] == 0)
                 {
-                    find = true;
+                    mod = mod * mod % x;
                 }
                 else
                 {
-                    result--;
+                    mod = mod * mod * a % x;
                 }
             }
-            return result;
+            return mod;
         }
 
-        public static int SecondState(int b, int n, int mod)
+        public static BigInteger FindNOD(BigInteger x, BigInteger mod)
         {
-            //Random rand = new Random();
-            //int b1 = rand.Next(b, b * b);
-            int b1 = b * b;
-            List<int> q = new List<int>();
-            for (int i = b; i <= b1; i++)
-            {
-                if (Simple(i))
-                {
-                    q.Add(i);
-                }
-            }
+            List<BigInteger> q = new List<BigInteger>();
+            List<BigInteger> r = new List<BigInteger>();
 
-            int c;
-            int d = 1;
-            int j = 0;
-            int count = q.Count;
-            while (d == 1 && j != count - 1)
+            q.Add(mod);
+            r.Add(x % mod);
+            int i = 0;
+
+            while (r[i] != 0)
             {
-                c = FindMod(q[j], mod, n);
-                d = FindNOD(n, c - 1);
-                j++;
+                i++;
+                q.Add(r[i - 1]);
+                r.Add(q[i - 1] % r[i - 1]);
             }
-            return d;
+            return q[i];
         }
 
         static void Main(string[] args)
         {
-            int x = Convert.ToInt32(Console.ReadLine());
+            BigInteger x = BigInteger.Parse(Console.ReadLine());
+
             int b = 10;
+
             int m = FindM(b);
-            Console.WriteLine(m);
+            //Console.WriteLine(m);
+
             Random rand = new Random();
-            int a = rand.Next(2, b - 1);
-            int mod = FindMod(m, a, x);
-            Console.WriteLine(mod);
-            int nod = FindNOD(x, mod - 1);
-            //while (nod <= 1)
-            //{
-            //    b = b + 5;
-            //    m = FindM(b);
-            //    mod = FindMod(m, a, x);
-            //    nod = FindNOD(x, mod - 1);
-            //    //Console.WriteLine("2 state");
-            //}
-            if (nod <= 1)
+            int a = rand.Next(b);
+            //int a = 2;
+            BigInteger mod = FindMod(x, m, a);
+            //Console.WriteLine(mod);
+            BigInteger nod = FindNOD(x, mod - 1);
+
+            while (nod == 1)
             {
-                nod = SecondState(b, x, mod);
+                b += 5; 
+                a = rand.Next(b);
+                m = FindM(b);
+                mod = FindMod(x, m, a);
+                nod = FindNOD(x, mod - 1);
             }
             Console.WriteLine(nod);
-            Console.ReadKey();            
+            Console.ReadLine();
         }
     }
 }

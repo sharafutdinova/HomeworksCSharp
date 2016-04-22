@@ -1,3 +1,6 @@
-C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\PollardsMethod\PollardsMethod\bin\Debug\PollardsMethod.exe.config
-C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\PollardsMethod\PollardsMethod\obj\Debug\PollardsMethod.exe
-C:\Users\Alsu\Documents\Visual Studio 2012\Projects\InformationSequrity\PollardsMethod\PollardsMethod\obj\Debug\PollardsMethod.pdb
+c:\users\alsu\documents\visual studio 2012\Projects\PollardsMethod\PollardsMethod\bin\Debug\PollardsMethod.exe.config
+c:\users\alsu\documents\visual studio 2012\Projects\PollardsMethod\PollardsMethod\obj\Debug\PollardsMethod.csprojResolveAssemblyReference.cache
+c:\users\alsu\documents\visual studio 2012\Projects\PollardsMethod\PollardsMethod\bin\Debug\PollardsMethod.exe
+c:\users\alsu\documents\visual studio 2012\Projects\PollardsMethod\PollardsMethod\bin\Debug\PollardsMethod.pdb
+c:\users\alsu\documents\visual studio 2012\Projects\PollardsMethod\PollardsMethod\obj\Debug\PollardsMethod.exe
+c:\users\alsu\documents\visual studio 2012\Projects\PollardsMethod\PollardsMethod\obj\Debug\PollardsMethod.pdb
